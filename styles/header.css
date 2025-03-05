@@ -1,0 +1,38 @@
+header {
+    background: linear-gradient(135deg, var(--primary-blue), var(--primary-red));
+    color: var(--text-light);
+    padding: 2rem 1rem;
+    margin: 0 -20px;
+    clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%);
+    padding-bottom: 5rem;
+}
+
+.header-title {
+    font-size: 2rem;
+    margin: 0;
+    padding: 0;
+    color: white;
+    flex: 1;
+    white-space: nowrap;
+}
+
+.header-content {
+    text-align: center;
+    max-width: 1200px;
+    margin: 2rem auto 0;
+}
+
+.tagline {
+    font-size: 1.5rem;
+    opacity: 0.9;
+    margin-top: -1rem;
+    margin-bottom: 2rem;
+}
+
+.hero-image {
+    width: 80%;
+    max-width: 600px;
+    margin: 2rem auto;
+    filter: drop-shadow(0 10px 20px rgba(0,0,0,0.3));
+    border-radius: 15px;
+}
