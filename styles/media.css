@@ -38,28 +38,42 @@
 
 @media (max-width: 768px) {
     body {
-        font-size: 16px;
         padding: 0 10px;
     }
 
     header {
         clip-path: polygon(0 0, 100% 0, 100% 95%, 0 100%);
-        padding-bottom: 3rem;
+        padding-bottom: 2rem;
+    }
+
+    .header-title {
+        font-size: 1.8rem;
+        margin-bottom: 1rem;
+    }
+
+    .nav-container {
+        flex-direction: column;
+        gap: 1rem;
+        padding: 1rem;
     }
 
     .nav-links {
-        padding: 0.5rem;
+        flex-direction: row;
+        justify-content: space-around;
         gap: 0.5rem;
-        border-radius: 15px;
     }
 
     .nav-links a {
-        padding: 0.5rem;
         font-size: 0.9rem;
+        padding: 0.5rem;
+        white-space: nowrap;
     }
 
-    .tagline {
-        font-size: 1.2rem;
+    .theme-btn {
+        width: 100%;
+        margin: 0;
+        padding: 0.8rem;
+        font-size: 0.9rem;
     }
 
     .hero-image {
@@ -69,20 +83,23 @@
 
     section {
         padding: 1rem;
-        margin: 2rem auto;
+        margin: 1.5rem 0;
+    }
+
+    section h2 {
+        font-size: 1.5rem;
     }
 
     .fact-card {
         padding: 1rem;
     }
 
-    .link-button {
-        width: 100%;
-        text-align: center;
+    .links-container {
+        gap: 1rem;
     }
 
-    button {
-        width: 100%;
-        padding: 1rem;
+    .link-button {
+        padding: 0.8rem;
+        font-size: 0.9rem;
     }
 }
